@@ -6,6 +6,7 @@ from .config import settings
 
 # models.Base.metadata.create_all(bind=engine)
 
+
 app = FastAPI()
 
 my_posts = [{"title": "title of post 1", "content": "content of post 1", "id": 1}, {
